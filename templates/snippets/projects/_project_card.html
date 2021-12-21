@@ -1,0 +1,26 @@
+<div class="card">
+    <div class="card-body">
+        <h5 class="text-dark card-title mb-0">{{ p.name }}</h5>
+        <p class="card-text text-muted">{{ p.context }}</p>
+        <p class="card-text mb-0">{{ p.description }}</p>
+        <ul class="project-links text-center px-0 mb-0">
+            {% if p.images %}
+                <li>
+                    <a href='#' data-toggle="modal" data-target="#{{ p.images.id }}Modal" class="mx-2">Screenshots</a>
+                </li>
+            {% endif %}
+
+            {% if p.git_link %}
+                <li>
+                    <a href="{{ p.git_link }}" target="_blank" class="mx-2">Git repository</a>
+                </li>
+            {% endif %}
+
+            {% if p.site_link %}
+                <li>
+                    <a href="{{ p.site_link }}" target="_blank" class="mx-2">Site</a>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>

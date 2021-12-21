@@ -6,6 +6,11 @@ i {
     color: black;
 }
 
+/* Project links */
+.project-links li { list-style: none; display: inline; }
+.project-links li:after { content: "\2022"; }
+.project-links li:last-child:after { content: none; }
+
 .modal {
     text-align: center;
 }
