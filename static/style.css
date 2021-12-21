@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+i {
+    color: black;
+}
+
+.modal {
+    text-align: center;
+}
+
+.modal-dialog {
+    max-width: 100%;
+}
+
+.modal-image {
+    max-height: 100vh;
+    max-width: 100%;
+
+    padding: 100px 0;
+    margin: -100px 0;
+}
+
+.modal-dialog-centered::before {
+    height: 0;
+}
+
+/* Make image captions background black */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+/* Make image next / back arrows black */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20fill%3D%27%23000%27%20viewBox%3D%270%200%2010%2010%27%3E%3Cpath%20d%3D%22m%206.25%2C1%20-4%2C4%204%2C4%20L%207.75%2C7.5%205.25%2C5%207.75%2C2.5%20Z%22%20style%3D%22fill%3A%23000000%3Bstroke%3A%23ffffff%3Bstroke-width%3A0.3%3Bstroke-miterlimit%3A4%3Bstroke-dasharray%3Anone%3Bstroke-opacity%3A1%3Bfill-opacity%3A1%22%20%2F%3E%3C%2Fsvg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20fill%3D%27%23000%27%20viewBox%3D%270%200%2010%2010%27%3E%3Cpath%20d%3D%22M%203.75%2C1%202.25%2C2.5%204.75%2C5%202.25%2C7.5%203.75%2C9%207.75%2C5%20Z%22%20style%3D%22fill%3A%23000000%3Bstroke-width%3A0.3%3Bstroke-miterlimit%3A4%3Bstroke-dasharray%3Anone%3Bstroke%3A%23ffffff%3Bstroke-opacity%3A1%3Bfill-opacity%3A1%22%20%2F%3E%3C%2Fsvg%3E");
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
