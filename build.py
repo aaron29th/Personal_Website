@@ -12,10 +12,10 @@ projects = [
             id='efCashCarryTool',
             img_root='ef_cash_carry_tool',
             images=[
-                    ('pick_sheet.png', 'Importing a pick via print to PDF'),
-                    ('front_sheet.png', 'Generating a new pdf with extracted details'),
-                    ('labels.png', 'Generating pallet labels using extracted information'),
-                    ('class_diagram.png', 'Class diagram')
+                ('pick_sheet.png', 'Importing a pick via print to PDF'),
+                ('front_sheet.png', 'Generating a new pdf with extracted details'),
+                ('labels.png', 'Generating pallet labels using extracted information'),
+                ('class_diagram.png', 'Class diagram')
             ]
         )
     ),
@@ -68,11 +68,11 @@ projects = [
             id='webMarketPlace',
             img_root='web_market_place',
             images=[
-                    ('user_profile.png', 'User profile'),
-                    ('product_listing.png', 'Product listing'),
-                    ('manage_account.png', 'Account management'),
-                    ('wishlist.png', 'Wishlist'),
-                    ('database_model_diagram.png', 'Database deign')
+                ('user_profile.png', 'User profile'),
+                ('product_listing.png', 'Product listing'),
+                ('manage_account.png', 'Account management'),
+                ('wishlist.png', 'Wishlist'),
+                ('database_model_diagram.png', 'Database deign')
             ]
         )
     ),
@@ -85,8 +85,8 @@ projects = [
             id='qtVideoPlayer',
             img_root='qt_video_player',
             images=[
-                    ('player.png', 'Video player'),
-                    ('edit_video.png', 'Editing a video\'s details')
+                ('player.png', 'Video player'),
+                ('edit_video.png', 'Editing a video\'s details')
             ]
         )
     ),
@@ -106,7 +106,17 @@ projects = [
         description='Site to help Argos employees search products without whole cat numbers as well as find similarly pronounced locations to aid with finding missing products.',
         context='Independent',
         git_link='https://github.com/aaron29th/ArgosTools',
-        site_link='https://aaronrosser.xyz/argos'
+        site_link='https://aaronrosser.xyz/argos',
+        images=ProjectImgs(
+            id='argosTools',
+            img_root='argos_tools',
+            images=[
+                ('home.png', 'Home page'),
+                ('cat_num_lookup.png', 'Cat num wildcard search'),
+                ('check_char_lookup.png', 'Check character lookup'),
+                ('check_char_collisions.png', 'Search similar locations with same check character')
+            ]
+        )
     ),
     Project(
         name='Jack Compiler',
@@ -122,8 +132,8 @@ projects = [
             id='covidTrackTraceWebsite',
             img_root='covid_track_trace_website',
             images=[
-                    ('check_in.png', 'Check in page'),
-                    ('editing_business_details.png', 'Mange business page')
+                ('check_in.png', 'Check in page'),
+                ('editing_business_details.png', 'Mange business page')
             ]
         )
     )
