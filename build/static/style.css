@@ -6,6 +6,10 @@ i {
     color: black;
 }
 
+b {
+    font-weight: 650;
+}
+
 /* Project links */
 .project-links li { list-style: none; display: inline; }
 .project-links li:after { content: "\2022"; }

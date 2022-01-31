@@ -2,7 +2,7 @@
     <div class="card-body">
         <h5 class="text-dark card-title mb-0">{{ p.name }}</h5>
         <p class="card-text text-muted">{{ p.context }}</p>
-        <p class="card-text mb-0">{{ p.description }}</p>
+        <p class="card-text mb-0">{{ p.description | safe }}</p>
         <ul class="project-links text-center px-0 mb-0">
             {% if p.images %}
                 <li>

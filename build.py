@@ -4,30 +4,10 @@ from staticjinja import Site
 
 projects = [
     Project(
-        name='EF Cash Carry Tool',
-        description='Developed a proof-of-concept WinForms application, written in C#, to automate regular tasks at work by parsing pdf documents and using the data to generate new pdf documents, this allowed the tasks to be done in less than a quarter of the previous time.',
-        context='Independent',
-        git_link='https://github.com/aaron29th/EF_Cash_Carry_Tool',
-        images=ProjectImgs(
-            id='efCashCarryTool',
-            img_root='ef_cash_carry_tool',
-            images=[
-                ('pick_sheet.png', 'Importing a pick via print to PDF'),
-                ('front_sheet.png', 'Generating a new pdf with extracted details'),
-                ('labels.png', 'Generating pallet labels using extracted information'),
-                ('class_diagram.png', 'Class diagram')
-            ]
-        )
-    ),
-    Project(
-        name='Rage Request',
-        description='Reverse engineered GTA 5’s custom network encryption and created a python library that implemented it to aid in looking for security vulnerabilities for Rockstar Game’s bug bounty program.',
-        context='Independent'
-    ),
-    Project(
         name='Cinema Website',
-        description='Worked in a group of four following a scrum methodology to create a fully featured cinema website with booking, admin and analytics functionally written in python using the Flask framework.',
+        description='Worked in a group of four following a <b>scrum methodology</b> to create a fully featured cinema website with booking, admin and analytics functionally written in <b>python</b> using the <b>Flask framework.</b>',
         context='Uni - Year 2 - Software Engineering Project',
+        git_link='https://gitlab.com/comp2913_group_40/software_engineering_project_comp2913',
         images=ProjectImgs(
             id='cinemaWebsite',
             img_root='cinema_website',
@@ -43,8 +23,62 @@ projects = [
         )
     ),
     Project(
+        name='EF Cash Carry Tool',
+        description='Developed a proof-of-concept <b>WinForms application</b>, written in <b>C#</b>, to automate regular tasks at work by parsing pdf documents and using the data to generate new pdf documents, this allowed the tasks to be done in less than a quarter of the previous time.',
+        context='Independent',
+        git_link='https://github.com/aaron29th/EF_Cash_Carry_Tool',
+        images=ProjectImgs(
+            id='efCashCarryTool',
+            img_root='ef_cash_carry_tool',
+            images=[
+                ('pick_sheet.png', 'Importing a pick via print to PDF'),
+                ('front_sheet.png', 'Generating a new pdf with extracted details'),
+                ('labels.png', 'Generating pallet labels using extracted information'),
+                ('class_diagram.png', 'Class diagram')
+            ]
+        )
+    ),
+    Project(
+        name='GTA 5 Mission Creator Tool',
+        description='<b>WinForms application</b>, written in <b>C#</b>, that makes use of memory editing, remote procedure calling and detours to enable access to an unreleased section of the game.',
+        context='Independent',
+        git_link='https://github.com/aaron29th/GTA_5_Mission_Creator_Tool',
+        images=ProjectImgs(
+            id='gta5missionCreator',
+            img_root='gta_5_mission_creator',
+            images=[
+                ('get_json_from_game.png', 'Extracting the created JSON file from the game'),
+                ('terminate_script_get_vec3_global.png', 'Changing a Vec3 global variable and terminting an in-game script'),
+                ('mission_creator_1.png', 'In-game creator'),
+                ('mission_creator_2.png', 'In-game creator'),
+                ('mission_creator_3.png', 'In-game creator')
+            ]
+        )
+    ),
+    Project(
+        name='Rage Request',
+        description='Reverse engineered GTA 5\'s custom network encryption and created a <b>python library</b> that implemented it to aid in looking for security vulnerabilities for Rockstar Game’s bug bounty program.',
+        context='Independent'
+    ),
+    Project(
+        name='Solar System Simulation',
+        description='Desktop <b>Qt</b> application written in <b>C++</b> to demostrate how complex worlds can be created with the <b>legacy fixed function pipeline OpenGL.</b>',
+        context='Independent',
+        images=ProjectImgs(
+            id='solarSystemSimulation',
+            img_root='solar_system_simulation',
+            images=[
+                ('scene_2.png', 'Simulation along with controls and parameter editor'),
+                ('diffuse.png', 'Diffusive lighting on Jupiter'),
+                ('ufo_orbit.png', 'Hierarchically animated UFO orbiting the sun'),
+                ('user_interaction_light_intensity_fov.png', 'Simulation with adjusted FOV and light properties'),
+                ('specular_light.png', 'Specular lighting / emission materials on UFO')
+            ]
+        )
+    ),
+    Project(
         name='GTA 5 Json Editor',
-        description='WinForms tool, written in C#, to edit memory and call in game functions that relate to json objects in Grand Theft Auto 5 on PS3.',
+        description='<b>WinForms application</b>, written in <b>C#</b>, to edit memory and call in game functions that relate to json objects in Grand Theft Auto 5 on PS3.',
         context='Independent',
         git_link='https://github.com/aaron29th/GTA_5_Json_Editor',
         images=ProjectImgs(
@@ -61,7 +95,7 @@ projects = [
     ),
     Project(
         name='Web Marketplace',
-        description='Developed a responsive marketplace website written in python using the Flask framework.',
+        description='Developed a responsive marketplace website written in <b>python</b> using the <b>Flask framework.</b>',
         context='Uni - Year 2 - Web application development',
         git_link='https://gitlab.com/AaronRosser/flask_web_marketplace',
         images=ProjectImgs(
@@ -78,7 +112,7 @@ projects = [
     ),
     Project(
         name='Qt Video Player',
-        description='Worked in a team of six to design and prototype a video player written in C++ using Qt.',
+        description='Worked in a team of six to design and prototype a video player written in <b>C++</b> using <b>Qt.</b>',
         context='Uni - Year 2 - User Interfaces',
         git_link='https://gitlab.com/AaronRosser/user_interfaces_comp2811_cw3',
         images=ProjectImgs(
@@ -92,12 +126,12 @@ projects = [
     ),
     Project(
         name='xv6 Operating System Improvements',
-        description='Added user mode malloc / free, copy-on-write memory management and implemented a new shell for the xv6 operating system written in C.',
+        description='Added user mode malloc / free, copy-on-write memory management and implemented a new shell for the <b>xv6 operating system</b> written in <b>C.</b>',
         context='Uni - Year 2 - Operating Systems'
     ),
     Project(
         name='YouTube Notification Bot',
-        description='Developed a YouTube Pub/Sub bot written in C# using .Net Core along with a WinForms client application, written in C#, to automatically post tweets and discord messages when YouTube videos were uploaded.',
+        description='Developed a YouTube Pub/Sub bot written in <b>C#</b> using <b>ASP.Net Core</b> along with a <b>WinForms client application</b>, written in <b>C#</b>, to automatically post tweets and discord messages when YouTube videos were uploaded.',
         context='A Level Computing',
         git_link='https://github.com/aaron29th/ALevelYouTubeNotificationBot'
     ),
@@ -120,12 +154,12 @@ projects = [
     ),
     Project(
         name='Jack Compiler',
-        description='Developed a compiler for the Jack programming language written in C.',
+        description='Developed a compiler for the Jack programming language written in <b>C.</b>',
         context='Uni - Year 2 - Compiler Design'
     ),
     Project(
         name='Covid-19 Track and Trace Website',
-        description='Developed a website for businesses to record and process customer details for NHS track and trace, written in python using the Flask framework.',
+        description='Developed a website for businesses to record and process customer details for NHS track and trace, written in <b>python</b> using the <b>Flask framework.</b>',
         context='Uni - Year 2 - Software Engineering Principles',
         git_link='https://gitlab.com/AaronRosser/Flask_Covid_Track_Trace',
         images=ProjectImgs(

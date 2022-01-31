@@ -45,13 +45,39 @@
         <ul>
             <li>Git</li>
             <li>Unit and integration testing</li>
-            <li>C# (WinForms, .Net Core and limited use of Windows Presentation Foundation)</li>
-            <li>Python (General use, NumPy and Flask)</li>
-            <li>C++ (General use, Arduino and Qt)</li>
+            <li>C#
+                <ul>
+                    <li>WinForms</li>
+                    <li>ASP.Net Core</li>
+                    <li>Entity Framework</li>
+                    <li>Limited use of Windows Presentation Foundation</li>
+                </ul>
+            </li>
+            <li>Python
+                <ul>
+                    <li>General use</li>
+                    <li>NumPy</li>
+                    <li>SQLAlchemy</li>
+                    <li>Flask</li>
+                </ul>
+            </li>
+            <li>C++
+                <ul>
+                    <li>General use</li>
+                    <li>Arduino</li>
+                    <li>Qt</li>
+                    <li>Legacy fixed function pipeline OpenGL</li>
+                </ul>
+            </li>
             <li>PHP</li>
             <li>Java</li>
-            <li>JavaScript (General use, Node.js and jQuery) along with HTML and CSS</li>
-            <li>Reverse Engineering (PowerPC and x64)</li>
+            <li>JavaScript along with HTML and CSS</li>
+            <li>Reverse Engineering / basic assembly programming
+                <ul>
+                    <li>PowerPC</li>
+                    <li>x64</li>
+                </ul>
+            </li>
         </ul>
     </section>
 
@@ -66,6 +92,7 @@
 </div>
 
 {% for p in projects %}
+
     {% include 'snippets/projects/_images_modal.html' %}
 {% endfor %}
 
