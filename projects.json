@@ -13,43 +13,43 @@
             "images": [
                 {
                     "py/tuple": [
-                        "home.png",
+                        "home.webp",
                         "Home page"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "login.png",
+                        "login.webp",
                         "Login page"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "browse_movies.png",
+                        "browse_movies.webp",
                         "Browse movies page"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "specific_movie.png",
+                        "specific_movie.webp",
                         "Movie page"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "seat_selection.png",
+                        "seat_selection.webp",
                         "Seat reservation"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "analysis.png",
+                        "analysis.webp",
                         "Analysis page"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "db_design.png",
+                        "db_design.webp",
                         "Database design"
                     ]
                 }
@@ -70,25 +70,25 @@
             "images": [
                 {
                     "py/tuple": [
-                        "pick_sheet.png",
+                        "pick_sheet.webp",
                         "Importing a pick via print to PDF"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "front_sheet.png",
+                        "front_sheet.webp",
                         "Generating a new pdf with extracted details"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "labels.png",
+                        "labels.webp",
                         "Generating pallet labels using extracted information"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "class_diagram.png",
+                        "class_diagram.webp",
                         "Class diagram"
                     ]
                 }
@@ -109,31 +109,31 @@
             "images": [
                 {
                     "py/tuple": [
-                        "get_json_from_game.png",
+                        "get_json_from_game.webp",
                         "Extracting the created JSON file from the game"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "terminate_script_get_vec3_global.png",
+                        "terminate_script_get_vec3_global.webp",
                         "Changing a Vec3 global variable and terminting an in-game script"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "mission_creator_1.png",
+                        "mission_creator_1.webp",
                         "In-game creator"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "mission_creator_2.png",
+                        "mission_creator_2.webp",
                         "In-game creator"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "mission_creator_3.png",
+                        "mission_creator_3.webp",
                         "In-game creator"
                     ]
                 }
@@ -163,31 +163,31 @@
             "images": [
                 {
                     "py/tuple": [
-                        "scene_2.png",
+                        "scene_2.webp",
                         "Simulation along with controls and parameter editor"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "diffuse.png",
+                        "diffuse.webp",
                         "Diffusive lighting on Jupiter"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "ufo_orbit.png",
+                        "ufo_orbit.webp",
                         "Hierarchically animated UFO orbiting the sun"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "user_interaction_light_intensity_fov.png",
+                        "user_interaction_light_intensity_fov.webp",
                         "Simulation with adjusted FOV and light properties"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "specular_light.png",
+                        "specular_light.webp",
                         "Specular lighting / emission materials on UFO"
                     ]
                 }
@@ -208,31 +208,31 @@
             "images": [
                 {
                     "py/tuple": [
-                        "objects.png",
+                        "objects.webp",
                         "Memory editing dictionaries"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "arrays.png",
+                        "arrays.webp",
                         "Memory editing arrays"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "misc.png",
+                        "misc.webp",
                         "Misc remote procedure call and basic memory editing"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "jobs.png",
+                        "jobs.webp",
                         "Existing job browser"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "jobs_2.png",
+                        "jobs_2.webp",
                         "Job updating and copying menu"
                     ]
                 }
@@ -253,31 +253,31 @@
             "images": [
                 {
                     "py/tuple": [
-                        "user_profile.png",
+                        "user_profile.webp",
                         "User profile"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "product_listing.png",
+                        "product_listing.webp",
                         "Product listing"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "manage_account.png",
+                        "manage_account.webp",
                         "Account management"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "wishlist.png",
+                        "wishlist.webp",
                         "Wishlist"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "database_model_diagram.png",
+                        "database_model_diagram.webp",
                         "Database deign"
                     ]
                 }
@@ -298,13 +298,13 @@
             "images": [
                 {
                     "py/tuple": [
-                        "player.png",
+                        "player.webp",
                         "Video player"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "edit_video.png",
+                        "edit_video.webp",
                         "Editing a video's details"
                     ]
                 }
@@ -343,25 +343,25 @@
             "images": [
                 {
                     "py/tuple": [
-                        "home.png",
+                        "home.webp",
                         "Home page"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "cat_num_lookup.png",
+                        "cat_num_lookup.webp",
                         "Cat num wildcard search"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "check_char_lookup.png",
+                        "check_char_lookup.webp",
                         "Check character lookup"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "check_char_collisions.png",
+                        "check_char_collisions.webp",
                         "Search similar locations with same check character"
                     ]
                 }
@@ -391,13 +391,13 @@
             "images": [
                 {
                     "py/tuple": [
-                        "check_in.png",
+                        "check_in.webp",
                         "Check in page"
                     ]
                 },
                 {
                     "py/tuple": [
-                        "editing_business_details.png",
+                        "editing_business_details.webp",
                         "Mange business page"
                     ]
                 }
