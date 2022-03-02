@@ -14,12 +14,12 @@ class ProjectImgs:
 
 
 class Project:
-    def __init__(self, name: str, description: str, context: str, 
-                 git_link: Optional[str] = None, site_link: Optional[str] = None, images: Optional[ProjectImgs] = None) -> None:
+    def __init__(self, name: str, description: str, context: str,
+                 git_link: Optional[str] = None, site_link: Optional[str] = None, images: Optional[ProjectImgs] = None):
         self.name = name
         self.description = description
         self.context = context
-        
+
         self.git_link = git_link
         self.site_link = site_link
 
